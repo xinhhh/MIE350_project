@@ -7,17 +7,17 @@ public class Comments {
 	 * This class contains all of the relevant information, and getter/setter
 	 * methods for the Member object.
 	 */
-	private int commendid;
+	private int commentid;
 	private int postid;
 	private int userid;
 	private String content;
 
-	public int getCommendid() {
-		return commendid;
+	public int getCommentid() {
+		return commentid;
 	}
 
-	public void setCommendid(int commendid) {
-		this.commendid = commendid;
+	public void setCommentid(int commentid) {
+		this.commentid = commentid;
 	}
 	
 	public int getPostid() {
@@ -44,10 +44,9 @@ public class Comments {
 		this.content = content;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Member [userid=" + memberid + ", firstName=" + firstName
-//				+ ", lastName=" + lastName + ", username=" + username
-//				+ ", password=" + password + ", email=" + email + "]";
-//	}
+	@Override
+	public String toString() {
+		return "Comments [commentid=" + commentid + ", postid=" + postid
+				+ ", userid=" + userid + ", content=" + content + "]";
+	}
 }
