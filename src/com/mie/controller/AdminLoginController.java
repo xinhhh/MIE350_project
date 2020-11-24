@@ -22,7 +22,7 @@ public class AdminLoginController extends HttpServlet {
 			throws ServletException, java.io.IOException {
 
 		/**
-		 * Retrieve the entered username and password from the login.jsp form.
+		 * Retrieve the entered username and password from the AdminLogin.jsp form.
 		 */
 		Admin admin = new Admin();
 		admin.setUsername(request.getParameter("un"));
@@ -46,7 +46,7 @@ public class AdminLoginController extends HttpServlet {
 				session.setAttribute("firstname", admin.getFirstName());
 				session.setAttribute("lastname", admin.getLastName());
 				/**
-				 * Redirect to the members-only home page.
+				 * Redirect to the admin-only home page.
 				 */
 				response.sendRedirect("adminLogged.jsp");
 

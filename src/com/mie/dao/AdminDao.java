@@ -49,7 +49,7 @@ public class AdminDao {
 			boolean more = rs.next();
 
 			/**
-			 * If there are no results from the query, set the admin to false.
+			 * If there are no results from the query, set the admins to false.
 			 * The person attempting to log in will be redirected to the home
 			 * page when isValid is false.
 			 */
