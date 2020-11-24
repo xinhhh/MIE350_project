@@ -13,7 +13,7 @@ import com.mie.dao.*;
 /**
  * Servlet implementation for AdminLoginController.
  * 
- * This class handles the login servlet and assigns session attributes for users
+ * This class handles the login servlet and assigns session attributes for admins
  * who succesfully log into the system.
  */
 public class AdminLoginController extends HttpServlet {

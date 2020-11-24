@@ -26,7 +26,7 @@ public class AdminDao {
 	public static Admin login(Admin admin) {
 
 		/**
-		 * This method attempts to find the member that is trying to log in by
+		 * This method attempts to find the admin that is trying to log in by
 		 * first retrieving the username and password entered by the user.
 		 */
 		Statement stmt = null;
