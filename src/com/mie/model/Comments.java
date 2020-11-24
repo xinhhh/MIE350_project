@@ -49,4 +49,5 @@ public class Comments {
 		return "Comments [commentid=" + commentid + ", postid=" + postid
 				+ ", userid=" + userid + ", content=" + content + "]";
 	}
+//test
 }
