@@ -15,9 +15,7 @@ public class Post {
 	private String del_status;
 
 	public int getPostid() {
-		
 		return postid;
-		
 	}
 
 	public void setPostid(int postid) {
