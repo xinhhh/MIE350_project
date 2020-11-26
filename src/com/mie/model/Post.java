@@ -5,59 +5,60 @@ import java.util.Date;
 public class Post {
 	/**
 	 * This class contains all of the relevant information, and getter/setter
-	 * methods for the Student object.
+	 * methods for the Post object.
 	 */
 
-	private int studentid;
-	private String firstName;
-	private String lastName;
-	private Date dob;
-	private String email;
+	private int postid;
+	private String userid;
+	private String post_title;
+	private String post_content;
+	private String del_status;
 
-	public int getStudentid() {
-		return studentid;
+	public int getPostid() {
+		
+		return postid;
 	}
 
-	public void setStudentid(int studentid) {
-		this.studentid = studentid;
+	public void setPostid(int postid) {
+		this.postid = postid;
 	}
 
-	public String getFirstName() {
-		return firstName;
+	public String getUserid() {
+		return userid;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setUserid(String userid) {
+		this.userid = userid;
 	}
 
-	public String getLastName() {
-		return lastName;
+	public String getPostTitle() {
+		return post_title;
 	}
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setPostTitle(String post_title) {
+		this.post_title = post_title;
 	}
 
-	public Date getDob() {
-		return dob;
+	public String getPostContent() {
+		return post_content;
 	}
 
-	public void setDob(Date dob) {
-		this.dob = dob;
+	public void setPostContent(String post_content) {
+		this.post_content = post_content;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getDeletedStatus() {
+		return del_status;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setDeletedStatus(String del_status) {
+		this.del_status = del_status;
 	}
 
 	@Override
 	public String toString() {
-		return "Student [studentid=" + studentid + ", firstName=" + firstName
-				+ ", lastName=" + lastName + ", dob=" + dob + ", email="
-				+ email + "]";
+		return "Post [PostID=" + postid + ", UserID=" + userid
+				+ ", Post Title=" + post_title + ", Post Content=" + post_content + ", Deleted Status="
+				+ del_status + "]";
 	}
 }

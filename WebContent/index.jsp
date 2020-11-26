@@ -1,10 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html lang="en">
 <head>
-<title>Covid-19 Community Site</title>
+<title>COVID-19 Community Website</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -28,25 +30,22 @@
 	<%@ include file="navbar.jsp"%>
 
 
-
+	
 	<div class="container-fluid text-center">
 		<div class="row content">
 			<div class="col-sm-2 sidenav">
 				<!-- You can put left sidebar links here if you want to. -->
 			</div>
 			<div class="col-sm-8 text-left">
-				<h1>Hello World!!</h1>
-				<p>This COVID-19 Community site is designed to encourage 
-				people to share everything related to COVID-19.
-				In this website, people can share some tips and personal 
-				stories about maintaining or even improving their day-to-day
-				 lives during this pandemic, browse the COVID-19 related
-				  information and discuss the latest update about COVID-19 
-				  local area. </p>
-				<hr>
-				<h3> Main functions</h3>
-				<p>Please see the About page for what the website can do
-				</p>
+			<h2><Strong><center> Welcome to COVID-19 Community Site</center></Strong> </h2>
+			<hr>
+				<i><strong><center><h3 style="color:rgb(0,51,153);">Share Your Post With Others Now!</h3></center></strong></i>
+				
+				<FORM><center><h4><FORM method='POST' action='UserController' name='formPostPosts'>
+				 Title<br><input type ='text' name='ftitle' size='98' maxlength='30'><br><br>
+				 Body<br><TEXTAREA COLS=100 ROWS=6 Name='Body' ></TEXTAREA><br><br>
+				<strong><INPUT TYPE='SUBMIT' VALUE='Post'></strong>
+				</FORM></h4></center><br>
 			</div>
 			<div class="col-sm-2 sidenav">
 				<!-- You can put right sidebar links here if you want to. -->
