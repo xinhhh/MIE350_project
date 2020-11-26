@@ -25,7 +25,7 @@
 					href="Login_Choice.jsp"><i class="fa fa-cloud"></i> Account<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="login.jsp">User Login</a></li>
-						<li><a href="helpful_links.jsp">User Sign-up</a></li>
+						<li><a href="signup.jsp">User Sign-up</a></li>
 						<li><a href="http://www.w3schools.com/html/default.asp">Admin Login</a></li>
 					</ul></li>
 			</ul>
