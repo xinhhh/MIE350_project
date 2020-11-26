@@ -1,4 +1,5 @@
 <nav class="navbar navbar-inverse">
+  <nav class="navbar-default" style="background-color:rgb(0,51,153)">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -6,7 +7,7 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.jsp">MIE350 Sample Web App</a>
+			<a class="navbar-brand" href="index.jsp">COVID-19 Community Site</a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
@@ -15,25 +16,21 @@
 				<li><a
 					href="/mie350webapp/StudentController?action=listStudent">Student
 						List (Public)</a></li>
-				<li><a href="searchStudent.jsp">Search A Student</a></li>
-				<li class="dropdown"><a data-toggle="dropdown"
-					href="helpful_links.jsp">Other Links<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="sample_html.jsp">Sample HTML Tags</a></li>
-						<li><a href="helpful_links.jsp">Other Helpful Links</a></li>
-						<li><a href="http://www.w3schools.com/html/default.asp">HTML
-								Tutorial</a></li>
-						<li><a href="http://www.w3schools.com/bootstrap/">BootStrap
-								CSS Tutorial</a></li>
-					</ul></li>
+				<li><a href="searchStudent.jsp"><i class="fa fa-fw fa-search"></i>Search a Post</a></li>
 				<li><a href="contact.jsp">Contact</a></li>
 			</ul>
 			<!-- The following code can be added to include a Login button to the right-hand side of the navbar-->
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="login.jsp"><span
-						class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				<li class="dropdown"><a data-toggle="dropdown"
+					href="Login_Choice.jsp"><i class="fa fa-cloud"></i> Account<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="sample_html.jsp">User Login</a></li>
+						<li><a href="helpful_links.jsp">User Sign-up</a></li>
+						<li><a href="http://www.w3schools.com/html/default.asp">Admin Login</a></li>
+					</ul></li>
 			</ul>
 
 		</div>
 	</div>
+</nav>
 </nav>
