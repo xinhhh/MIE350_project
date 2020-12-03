@@ -33,22 +33,19 @@
 				<!-- You can put left sidebar links here if you want to. -->
 			</div>
 			<div class="col-sm-8 text-left">
-				<h1>Administrator Login</h1>
+				<center><h1>User Login</h1> </center>
 
 				<form action="LoginController">
-
-					Username: <input type="text" name="un" /><br> Password: <input
-						type="password" name="pw" /> <input type="submit"
-						class="btn btn-info" value="Submit">
-
+				<br>
+				<br>
+				<br>
+					<center><h4>UserID: </h4> <input type="text" name="un" /><br> <h4>Password:</h4><input
+						type="password" name="pw" /> <br> <br> <input type="submit"
+						class="btn btn-info" value="Submit"></center>
 				</form>
 				<br /> 
-				For demonstration purposes, please use the following
-				credentials:
-				<ul>
-					<li><b>Username</b>: admin (or admin2, admin3, admin4, admin5)</li>
-					<li><b>Password</b>: password</li>
-				</ul>
+			
+			<center> Don't have an account? <a href="signup.jsp"><u>Create new account</u></a> </center>
 			</div>
 			<div class="col-sm-2 sidenav">
 				<!-- You can put right sidebar links here if you want to. -->
