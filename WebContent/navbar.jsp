@@ -1,3 +1,14 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+</style>
+
+
 <nav class="navbar navbar-inverse">
   <nav class="navbar-default" style="background-color:rgb(0,51,153)">
 	<div class="container-fluid">
@@ -11,18 +22,24 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a href="index.jsp">Home</a></li>
-				<li><a href="about.jsp">About</a></li>
-				<li><a
-					href="/mie350webapp/StudentController?action=listStudent">Student
-						List (Public)</a></li>
-				<li><a href="searchStudent.jsp"><i class="fa fa-fw fa-search"></i>Search a Post</a></li>
-				<li><a href="contact.jsp">Contact</a></li>
+				<li><a href="index.jsp"><i class="fa fa-fw fa-home"></i>Home</a></li>
+				<li><a href="about.jsp"><i class="fa fa-fw fa-info"></i>About</a></li>
+				<li><a href="contact.jsp"><i class="fa fa-fw fa-phone-square"></i>Contact</a></li>
 			</ul>
+			<form class="navbar-form navbar-left" action="/action_page.php">
+  				<div class="input-group">
+    			<input type="text" class="form-control" placeholder="Search a post here...">
+    			<div class="input-group-btn">
+      			<button class="btn btn-default" type="submit">
+        		<strong>Search</strong>
+     		    </button>
+    			</div>
+  				</div>
+				</form>
 			<!-- The following code can be added to include a Login button to the right-hand side of the navbar-->
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown"><a data-toggle="dropdown"
-					href="Login_Choice.jsp"><i class="fa fa-cloud"></i> Account<b class="caret"></b></a>
+					href="Login_Choice.jsp"><i class="fa fa-fw fa-user"></i>Account<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="login.jsp">User Login</a></li>
 						<li><a href="signup.jsp">User Sign-up</a></li>
