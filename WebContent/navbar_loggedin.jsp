@@ -23,9 +23,10 @@
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
 				<li><a href="memberLogged.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-home"></i>Home</p></a></li>
+				<li><a href="publish_post.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-plus"></i>New Post</p></a></li>
 				<li><a href="User_profile.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-user"></i>User Profile</p></a></li>
-				<li><a href="post_history.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-clipboard"></i>Post History</p></a></li>
-				<li><a href="comment_history.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-comment"></i>Comment History</p></a></li>
+				<li><a href="post_history.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-clipboard"></i>My Post</p></a></li>
+				<li><a href="comment_history.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-comment"></i>My Comment</p></a></li>
 			</ul>
 			<form class="navbar-form navbar-left" action="/action_page.php">
   				<div class="input-group">

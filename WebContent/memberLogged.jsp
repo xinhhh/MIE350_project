@@ -67,13 +67,24 @@
 					<li><p style="font-family:Lucida Console;"><b>Delete & Edit</b> history comments</p></li>
 				</p></ul>
 				<br>
-				<i><strong><center><h3 style="font-family:comic sans MS;color:rgb(0,51,153);">Share Your Post With Others Now!</h3></center></strong></i>
-				
-				<FORM><center><h4 style="font-family:comic sans MS;"><FORM method='POST' action='UserController' name='formPostPosts'>
-				 Title<br><input type ='text' name='ftitle' size='98' maxlength='30'><br><br>
-				 Body<br><TEXTAREA COLS=100 ROWS=6 Name='Body' ></TEXTAREA><br><br>
-				<strong><h4 style="font-family:comic sans MS;"><INPUT TYPE='SUBMIT' VALUE='Post'></h4></strong>
-				</FORM></h4></center><br>
+				<br>
+			<div class="row">
+  		<div class="leftcolumn">
+    		<div class="card">
+      		<h2>TITLE HEADING</h2>
+      		<h5>Title description, Dec 7, 2017</h5>
+      		
+      		<p>Some text..</p>
+      		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    		</div>
+    		<div class="card">
+      		<h2>TITLE HEADING</h2>
+      		<h5>Title description, Sep 2, 2017</h5>
+      		<p>Some text..</p>
+      		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    		</div>
+  		</div>
+	</div>
 
 
 			</div>
