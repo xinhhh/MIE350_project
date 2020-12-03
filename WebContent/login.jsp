@@ -33,19 +33,19 @@
 				<!-- You can put left sidebar links here if you want to. -->
 			</div>
 			<div class="col-sm-8 text-left">
-				<center><h1>User Login</h1> </center>
+				<center><h1 style="font-family:comic sans MS;">User Login</h1></center>
 
 				<form action="LoginController">
 				<br>
 				<br>
 				<br>
-					<center><h4>UserID: </h4> <input type="text" name="un" /><br> <h4>Password:</h4><input
-						type="password" name="pw" /> <br> <br> <input type="submit"
-						class="btn btn-info" value="Submit"></center>
+					<center><h4 style="font-family:comic sans MS;">UserID: </h4> <input type="text" name="un" /><br> <h4 style="font-family:comic sans MS;">Password:</h4><input
+						type="password" name="pw" /> <br> <br> <h4 style="font-family:comic sans MS;"><input type="submit"
+						class="btn btn-info" value="Submit"></h4></center>
 				</form>
 				<br /> 
 			
-			<center> Don't have an account? <a href="signup.jsp"><u>Create new account</u></a> </center>
+			<center> <p style="font-family:comic sans MS;">Don't have an account? <a href="signup.jsp"><u>Create new account</u></a></p> </center>
 			</div>
 			<div class="col-sm-2 sidenav">
 				<!-- You can put right sidebar links here if you want to. -->

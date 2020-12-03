@@ -38,32 +38,16 @@
 				<!-- You can put left sidebar links here if you want to. -->
 			</div>
 			<div class="col-sm-8 text-left">
-			<Strong><center><h1 style="font-family:comic sans MS;">Welcome to COVID-19 Community Site</h1></center></Strong>
+			<h2><Strong><center> Welcome to COVID-19 Community Site</center></Strong> </h2>
 			<hr>
-			<a href="login.jsp"><u><center><h4 style="font-family:comic sans MS;">Login to publish a post, comment on others' posts, and unlock even more functions!</u></h4></center></a>
+				<i><strong><center><h3 style="color:rgb(0,51,153);">Share Your Post With Others Now!</h3></center></strong></i>
 				
-	<div class="row">
-  		<div class="leftcolumn">
-    		<div class="card">
-      		<h2>TITLE HEADING</h2>
-      		<h5>Title description, Dec 7, 2017</h5>
-      		<div class="fakeimg" style="height:200px;">Image</div>
-      		<p>Some text..</p>
-      		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    		</div>
-    		<div class="card">
-      		<h2>TITLE HEADING</h2>
-      		<h5>Title description, Sep 2, 2017</h5>
-      		<div class="fakeimg" style="height:200px;">Image</div>
-      		<p>Some text..</p>
-      		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    		</div>
-  		</div>
-	</div>
+				<FORM><center><h4><FORM method='POST' action='UserController' name='formPostPosts'>
+				 Title<br><input type ='text' name='ftitle' size='98' maxlength='30'><br><br>
+				 Body<br><TEXTAREA COLS=100 ROWS=6 Name='Body' ></TEXTAREA><br><br>
+				<strong><INPUT TYPE='SUBMIT' VALUE='Post'></strong>
+				</FORM></h4></center><br>
 				<br /> <br />
-			</div>
-			<div class="col-sm-2 sidenav">
-				<!-- You can put right sidebar links here if you want to. -->
 			</div>
 		</div>
 	</div>

@@ -18,14 +18,14 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.jsp">COVID-19 Community User Dashboard </a>
+			<a class="navbar-brand" href="index.jsp"><p style="font-family: Lucida Handwriting;">COVID-19 Community User Dashboard</p> </a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a href="memberLogged.jsp"><i class="fa fa-fw fa-home"></i>Home</a></li>
-				<li><a href="User_profile.jsp"><i class="fa fa-fw fa-user"></i>User Profile</a></li>
-				<li><a href="post_history.jsp"><i class="fa fa-fw fa-clipboard"></i>Post History</a></li>
-				<li><a href="comment_history.jsp"><i class="fa fa-fw fa-comment"></i>Comment History</a></li>
+				<li><a href="memberLogged.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-home"></i>Home</p></a></li>
+				<li><a href="User_profile.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-user"></i>User Profile</p></a></li>
+				<li><a href="post_history.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-clipboard"></i>Post History</p></a></li>
+				<li><a href="comment_history.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-comment"></i>Comment History</p></a></li>
 			</ul>
 			<form class="navbar-form navbar-left" action="/action_page.php">
   				<div class="input-group">
@@ -39,8 +39,8 @@
 				</form>
 			<!-- The following code can be added to include a Login button to the right-hand side of the navbar-->
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="LogoutServlet"><span
-						class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+				<li><a href="LogoutServlet"><p style="font-family:comic sans MS;"><span
+						class="glyphicon glyphicon-log-out"></span> Logout</p></a></li>
 			</ul>
 
 		</div>

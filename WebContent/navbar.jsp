@@ -18,13 +18,13 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.jsp">COVID-19 Community Site</a>
+			<a class="navbar-brand" href="index.jsp"></Strong><p style="font-family: Lucida Handwriting;">COVID-19 Community Site</p></Strong></a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a href="index.jsp"><i class="fa fa-fw fa-home"></i>Home</a></li>
-				<li><a href="about.jsp"><i class="fa fa-fw fa-info"></i>About</a></li>
-				<li><a href="contact.jsp"><i class="fa fa-fw fa-phone-square"></i>Contact</a></li>
+				<li><a href="index.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-home"></i>Home</p></a></li>
+				<li><a href="about.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-info"></i>About</p></a></li>
+				<li><a href="contact.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-phone-square"></i>Contact</p></a></li>
 			</ul>
 			<form class="navbar-form navbar-left" action="/action_page.php">
   				<div class="input-group">
@@ -39,11 +39,11 @@
 			<!-- The following code can be added to include a Login button to the right-hand side of the navbar-->
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown"><a data-toggle="dropdown"
-					href="Login_Choice.jsp"><i class="fa fa-fw fa-user"></i>Account<b class="caret"></b></a>
+					href="Login_Choice.jsp"><p style="font-family:comic sans MS;"><i class="fa fa-fw fa-user"></i>Account<b class="caret"></b></p></a>
 					<ul class="dropdown-menu">
-						<li><a href="login.jsp">User Login</a></li>
-						<li><a href="signup.jsp">User Sign-up</a></li>
-						<li><a href="http://www.w3schools.com/html/default.asp">Admin Login</a></li>
+						<li><a href="login.jsp"><p style="font-family:comic sans MS;">User Login</p></a></li>
+						<li><a href="signup.jsp"><p style="font-family:comic sans MS;">User Sign-up</p></a></li>
+						<li><a href="http://www.w3schools.com/html/default.asp"><p style="font-family:comic sans MS;">Admin Login</p></a></li>
 					</ul></li>
 			</ul>
 

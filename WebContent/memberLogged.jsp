@@ -50,28 +50,29 @@
 			<%@ include file="sidebar_loggedin.jsp"%>
 			<div class="col-sm-8 text-left">
 
-				<h1>
+				<center><h1 style="font-family:comic sans MS;">
 					Welcome,
 					<%=firstname%>
 					<%=lastname%>!
-				</h1>
-
-				<h3>Community Users-Only Features</h3>
-				<h4>Users can do the followings here:
+				</h1></center>
+				<br>
+				
+				<h4 style="font-family:Lucida Console;">You can do the followings here:</h4>
 
 				<ul>
-					<li><b>Publish</b> posts</li>
-					<li><b>Update</b> user profile</li>
-					<li><b>Delete & Edit</b> history posts</li>
-					<li><b>Delete & Edit</b> history comments</li>
-				</ul></h4>
 				
-				<i><strong><center><h3 style="color:rgb(0,51,153);">Share Your Post With Others Now!</h3></center></strong></i>
+					<li><p style="font-family:Lucida Console;"><b>Publish</b> posts</p></li>
+					<li><p style="font-family:Lucida Console;"><b>Update</b> user profile</p></li>
+					<li><p style="font-family:Lucida Console;"><b>Delete & Edit</b> history posts</p></li>
+					<li><p style="font-family:Lucida Console;"><b>Delete & Edit</b> history comments</p></li>
+				</p></ul>
+				<br>
+				<i><strong><center><h3 style="font-family:comic sans MS;color:rgb(0,51,153);">Share Your Post With Others Now!</h3></center></strong></i>
 				
-				<FORM><center><h4><FORM method='POST' action='UserController' name='formPostPosts'>
+				<FORM><center><h4 style="font-family:comic sans MS;"><FORM method='POST' action='UserController' name='formPostPosts'>
 				 Title<br><input type ='text' name='ftitle' size='98' maxlength='30'><br><br>
 				 Body<br><TEXTAREA COLS=100 ROWS=6 Name='Body' ></TEXTAREA><br><br>
-				<strong><INPUT TYPE='SUBMIT' VALUE='Post'></strong>
+				<strong><h4 style="font-family:comic sans MS;"><INPUT TYPE='SUBMIT' VALUE='Post'></h4></strong>
 				</FORM></h4></center><br>
 
 
