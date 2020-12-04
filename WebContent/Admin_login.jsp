@@ -33,7 +33,7 @@
 				<!-- You can put left sidebar links here if you want to. -->
 			</div>
 			<div class="col-sm-8 text-left">
-				<center><h1 style="font-family:comic sans MS;">User Login</h1></center>
+				<center><h1 style="font-family:comic sans MS;">Administrator Login</h1></center>
 
 				<form action="LoginController">
 				<br>
@@ -44,8 +44,6 @@
 						class="btn btn-info" value="Submit"></h4></center>
 				</form>
 				<br /> 
-			
-			<center> <p style="font-family:comic sans MS;">Don't have an account? <a href="signup.jsp"><u>Create new account</u></a></p> </center>
 			</div>
 			<div class="col-sm-2 sidenav">
 				<!-- You can put right sidebar links here if you want to. -->

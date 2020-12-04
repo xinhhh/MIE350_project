@@ -31,7 +31,6 @@
 
 	<%
 		Member member = (Member) session.getAttribute("currentSessionUser");
-
 		String username = (String) session.getAttribute("username");
 		String firstname = (String) session.getAttribute("firstname");
 		String lastname = (String) session.getAttribute("lastname");
@@ -39,7 +38,7 @@
 
 	<div class="container-fluid text-center">
 		<div class="row content">
-			<%@ include file="sidebar_loggedin.jsp"%>
+			<%@ include file="sidebar_loggedin_user.jsp"%> 
 			<div class="col-sm-8 text-left">
 				<h1 style="font-family:comic sans MS;">Update User Profile</h1>
 
@@ -48,20 +47,16 @@
 						$('input[name=dob]').datepicker();
 					});
 				</script>
-				<p style="font-family:comic sans MS;color:rgb(0,51,153)">Note: the UserID is a fixed field and cannot be changed.</p> <br>
+				<p style="font-family:comic sans MS;color:rgb(0,51,153)">Note: the Username is a fixed field and cannot be changed.</p> <br>
 				<br>
 				<center>
 				<!-- update/accountinfo controller
 				<form method="POST" action='StudentController' name="frmAddUser">  --> 
 				<h4 style="font-family:comic sans MS;">
-					UserID*: <input type="text" readonly="readonly"
+					Username*: <input type="text" readonly="readonly"
 						name="studentid" value="<c:out value="${student.studentid}" />"><br>
-					UserName: <input type="text" name="firstName"
-						value="<c:out value="${student.firstName}" />"><br>
 					Biography: <input type="text" name="lastName"
-						value="<c:out value="${student.lastName}" />"><br>DOB
-					(MM/dd/yyyy): <input type="text" name="dob"
-						value="<fmt:formatDate pattern="MM/dd/yyyy" value="${student.dob}" />"><br>
+						value="<c:out value="${student.lastName}" />"><br>
 					Email: <input type="text" name="email"
 						value="<c:out value="${student.email}" />"><br> <br>
 					<input type="submit" class="btn btn-info" value="Submit" />

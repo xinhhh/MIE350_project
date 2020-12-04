@@ -47,7 +47,7 @@
 
 	<div class="container-fluid text-center">
 		<div class="row content">
-			<%@ include file="sidebar_loggedin.jsp"%>
+			<%@ include file="sidebar_loggedin_user.jsp"%>
 			<div class="col-sm-8 text-left">
 
 				<center><h1 style="font-family:comic sans MS;">
